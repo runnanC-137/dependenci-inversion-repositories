@@ -1,4 +1,4 @@
-import { Address } from '../entities/address.entity';
+import { Address } from '../entities-models/entities/address.entity';
 
 export abstract class AddressRepository {
   abstract create: (user: Address) => Promise<Address>;  // C

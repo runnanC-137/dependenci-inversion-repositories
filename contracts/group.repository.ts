@@ -1,4 +1,4 @@
-import { Group } from '../entities/group.entity';
+import { Group } from '../entities-models/entities/group.entity';
 
 export abstract class GroupRepository {
   abstract create: (user: Group) => Promise<Group>;     // C
@@ -7,3 +7,4 @@ export abstract class GroupRepository {
   abstract update: (user: Group) => Promise<Group>;     // U
   abstract delete: (userId: string) => Promise<void>;   // D
 }
+
