@@ -1,0 +1,3 @@
+[submodule "entities-models"]
+	path = entities-models
+	url = https://github.com/runnanC-137/entities-models.git
