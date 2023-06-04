@@ -1,4 +1,4 @@
-import { User } from '../entities-models/entities/user.entity';
+import { User } from '../../entities-models/entities-ts/user.entity'
 
 export abstract class UserRepository {
   abstract create: (user: User) => Promise<User>;           // C

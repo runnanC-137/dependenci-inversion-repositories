@@ -1,4 +1,4 @@
-import { Group } from '../entities-models/entities/group.entity';
+import { Group } from '../../entities-models/entities-ts/group.entity';
 
 export abstract class GroupRepository {
   abstract create: (user: Group) => Promise<Group>;     // C

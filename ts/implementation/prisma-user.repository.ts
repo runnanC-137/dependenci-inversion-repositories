@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common'
 // contract
-import { UserRepository } from '../contract/user-repository'
+import { UserRepository } from '../contracts/user.repository'
 // entities
-import { User } from '../entities/user-entities' 
+import { User } from '../../entities-models/entities-ts/user.entity' 
 // service
-import { PrismaService } from '../'
+import { PrismaService } from ''
 
 const prisma = new PrismaService()
 
